@@ -5,7 +5,7 @@ Với tình hình các rủi ro an ninh hiện nay và các khuyến cáo từ h
 
 Do vậy nhu cầu OTP cho các ứng dụng đang rất cần thiết, một số ứng dụng thì có sẵn tính năng OTP, một số thì chưa có, một số thì lại cần đầu tư hoặc bản free thì hạn chế user, cần kết nối internet. 
 
-Trong bài viết này HCD team giới thiệu phương án sử dụng FreeIPA để cung cấp cơ chế LDAP/LDAPS cho việc xác thực với các ứng dụng hỗ trợ tích hợp LDAP với các ứng dụng cho phép. Ngoài ra, trên freeipa có cơ chế cung cấp OTP cho user được tạo bởi nó nên giải pháp này khả quan để ae sử dụng.
+Trong bài viết này HCD team giới thiệu phương án sử dụng FreeIPA để cung cấp cơ chế LDAP/LDAPS cho việc xác thực với các ứng dụng hỗ trợ tích hợp LDAP với các ứng dụng cho phép. Ngoài ra, trên freeipa có cơ chế cung cấp OTP cho user được tạo bởi nó nên giải pháp này khả quan để ae sử dụng cho nhu cầu xác thực cần OTP. 
 
 ![Untitled](images/topo.png)
 
@@ -15,6 +15,7 @@ Trong bài viết này HCD team giới thiệu phương án sử dụng FreeIPA 
 - Không cần kết nối ra Internet để nhận OPT.
 - Không bị limit user sử dụng khi tích hợp
 - Free
+- Có thể tích hợp với các sản phẩm hỗ trợ LDAP/LDAPS (vcenter, netbox, graylog, checkmk ....)
 
 ### Nhược điểm
 
