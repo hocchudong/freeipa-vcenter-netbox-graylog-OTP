@@ -2,16 +2,16 @@
 
 # MỤC LỤC
 - [Tích hợp Freeipa, vCenter (netbox, graylog, checkmk .....) và kích hoạt xác thực có OPT (2FA)](#t-ch-h-p-freeipa--vcenter--netbox--graylog--checkmk---v--k-ch-ho-t-x-c-th-c-c--opt--2fa-)
-  * [Giới thiệu](#gi-i-thi-u)
-    + [Ưu điểm](#-u--i-m)
-    + [Nhược điểm](#nh--c--i-m)
-  * [Môi trường](#m-i-tr--ng)
-    + [Mô hình](#m--h-nh)
-  * [Cài đặt FreeIPA](#c-i---t-freeipa)
-  * [Tích hợp freeipa với vcenter và kích hoạt OTP](#t-ch-h-p-freeipa-v-i-vcenter-v--k-ch-ho-t-otp)
-    + [Tạo user cho freeipa](#t-o-user-cho-freeipa)
-    + [Thực hiện tích hợp freeipa và khai báo trên vcenter](#th-c-hi-n-t-ch-h-p-freeipa-v--khai-b-o-tr-n-vcenter)
-    + [Kích hoạt tính năng OPT cho user của freeipa để sử dụng khi đăng nhập](#k-ch-ho-t-t-nh-n-ng-opt-cho-user-c-a-freeipa----s--d-ng-khi---ng-nh-p)
+  * [Giới thiệu](#giới-thiệu)
+    + [Ưu điểm](#ưu-điểm)
+    + [Nhược điểm](#nhược-điểm)
+  * [Môi trường](#môi-trường)
+    + [Mô hình](#mô-hình)
+  * [Cài đặt FreeIPA](#cài-đặt-freeipa)
+  * [Tích hợp freeipa với vcenter và kích hoạt OTP](#tích-hợp-freeipa-với-vcenter-và-kích-hoạt-otp)
+    + [Tạo user cho freeipa](#tạo-user-cho-freeipa)
+    + [Thực hiện tích hợp freeipa và khai báo trên vcenter](#thực-hiện-tích-hợp-freeipa-và-khai-báo-trên-vcenter)
+    + [Kích hoạt tính năng OPT cho user của freeipa để sử dụng khi đăng nhập](#kích-hoạt-tính-năng-opt-cho-user-của-freeipa-để-sử-dụng-khi-đăng-nhập)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
