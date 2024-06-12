@@ -1,4 +1,4 @@
-# Tích hợp Freeipa, vCenter và kích hoạt OPT (2FA)
+# Tích hợp Freeipa, vCenter (netbox, graylog, checkmk .....) và kích hoạt xác thực có OPT (2FA)
 
 ## Giới thiệu
 Với tình hình các rủi ro an ninh hiện nay và các khuyến cáo từ háng, các team security là bật được xác thực gì bật hết, càng nhiều lớp càng tốt. 
