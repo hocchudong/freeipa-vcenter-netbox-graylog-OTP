@@ -43,11 +43,11 @@ Centos 8, RHEL8, Centos 9 hoặc RHEL 9
 
 Lab này sử dụng RHEL8
 
-Lưu ý trong lab này dùng freeipa làm dns cho domain hcdlab.local luôn mặc dù trước đó với vcenter đã có dns server khác.
+Lưu ý trong lab này dùng freeipa làm dns cho domain conglab.local luôn mặc dù trước đó với vcenter đã có dns server khác.
 
 Vcenter 7.0.3, domain vcenter.labhtv.local (10.10.240.245)
 
-Freeipa 4.9.11, domain ipa.congtolab.local (10.10.240.186)
+Freeipa 4.9.11, domain ipa.conglab.local (10.10.240.186)
 
 ### Mô hình 
 
