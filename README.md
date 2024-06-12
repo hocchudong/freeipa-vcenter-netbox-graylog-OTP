@@ -1,6 +1,13 @@
 # Tích hợp Freeipa, vCenter và kích hoạt OPT (2FA)
 
 ## Giới thiệu
+Với tình hình các rủi ro an ninh hiện nay và các khuyến cáo từ háng, các team security là bật được xác thực gì bật hết, càng nhiều lớp càng tốt. 
+
+Do vậy nhu cầu OTP cho các ứng dụng đang rất cần thiết, một số ứng dụng thì có sẵn tính năng OTP, một số thì chưa có, một số thì lại cần đầu tư hoặc bản free thì hạn chế user, cần kết nối internet. 
+
+Trong bài viết này HCD team giới thiệu phương án sử dụng FreeIPA để cung cấp cơ chế LDAP/LDAPS cho việc xác thực với các ứng dụng hỗ trợ tích hợp LDAP với các ứng dụng cho phép. Ngoài ra, trên freeipa có cơ chế cung cấp OTP cho user được tạo bởi nó nên giải pháp này khả quan để ae sử dụng.
+
+![Untitled](images/topo.png)
 
 ### Ưu điểm
 
@@ -24,6 +31,10 @@ Lưu ý trong lab này dùng freeipa làm dns cho domain hcdlab.local luôn mặ
 Vcenter 7.0.3, domain vcenter.labhtv.local (10.10.240.245)
 
 Freeipa 4.9.11, domain ipa.congtolab.local (10.10.240.186)
+
+### Mô hình 
+
+![Untitled](images/lab.png)
 
 ## Cài đặt FreeIPA
 
